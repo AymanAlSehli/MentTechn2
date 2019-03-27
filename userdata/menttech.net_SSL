@@ -1,0 +1,21 @@
+--- 
+documentroot: /home/menttech/public_html
+group: menttech
+hascgi: 1
+homedir: /home/menttech
+ip: 212.1.211.13
+ipv6: ~
+owner: root
+phpopenbasedirprotect: 1
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@menttech.net
+serveralias: mail.menttech.net www.menttech.net
+servername: menttech.net
+ssl: 1
+sslcacertificatefile: /var/cpanel/ssl/installed/cabundles/cPanel_Inc__681917bfb43af6b642178607e0b36ccc_1747526399.cabundle
+sslcertificatefile: /var/cpanel/ssl/installed/certs/menttech_net_c3e78_648af_1514246399_306b6a13c24971fa5e777a802202de27.crt
+sslcertificatekeyfile: /var/cpanel/ssl/installed/keys/c3e78_648af_6cbb33226d0f1323f4bab3c4903ba74c.key
+usecanonicalname: 'Off'
+user: menttech
+userdirprotect: ''

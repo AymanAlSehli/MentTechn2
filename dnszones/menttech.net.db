@@ -1,0 +1,30 @@
+; cPanel first:11.54.0.19 (update_time):1543696533 Cpanel::ZoneFile::VERSION:1.3 hostname:cpl67.hosting24.com latest:74.0.11
+; Zone file for menttech.net
+$TTL 14400
+menttech.net.	14400	IN	SOA	ns133.hosting24.com.	cpanel.hosting24.com.	(
+						2016062900 ;Serial Number
+						3600 ;refresh
+						7200 ;retry
+						1209600 ;expire
+						86400	)
+
+menttech.net.	14400	IN	NS	ns133.hosting24.com.
+menttech.net.	14400	IN	NS	ns134.hosting24.com.
+
+
+menttech.net.	14400	IN	A	212.1.211.13
+
+menttech.net.	14400	IN	MX	0	menttech.net.
+
+mail	14400	IN	CNAME	menttech.net.
+www	14400	IN	CNAME	menttech.net.
+ftp	14400	IN	A	212.1.211.13
+
+menttech.net. IN TXT "v=spf1 +a +mx +ip4:31.220.17.160 +ip4:212.1.211.13 +include:relay.mailchannels.net ~all"
+cpanel	14400	IN	A	212.1.211.13
+webdisk	14400	IN	A	212.1.211.13
+cpcalendars	14400	IN	A	212.1.211.13
+cpcontacts	14400	IN	A	212.1.211.13
+whm	14400	IN	A	212.1.211.13
+webmail	14400	IN	A	212.1.211.13
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsWc1F0rWi60O0EyeUCDvU3+f78L8F/Hpz8lyCYYJmlulLPU3UWm+P09QxThMqLnGmvZOLk0W434XTDL2jhVf+A/VcGaFKbKUufguPcId3On1anEfHGwB+OzDK86PxobSwstJ4E399G6n4usuEXtxZR4ngtXAsziBxrS4utbm2im5JoDBZMW8VeWSOVsv8vl4d" nQ2XP2Kb7Jx6nt14AWx8/sv8jWaaD7lWlgFT4yRVfpVJOz0m9YDJnOzPntu4w3cUvhEAmpTtgUk80OdOKYZVrkE1x8FZVqrT7F3wS3Fkhep4jR7B34ajqyqCaylZhsIlsdIB/zOd/W/6Rz5j591kQIDAQAB\;

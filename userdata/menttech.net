@@ -1,0 +1,47 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /usr/local/apache/domlogs/menttech.net
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /usr/local/apache/domlogs/menttech.net-bytes_log
+documentroot: /home/menttech/public_html
+group: menttech
+hascgi: 1
+homedir: /home/menttech
+ifmodulealiasmodule: 
+  scriptalias: 
+    - 
+      path: /home/menttech/public_html/cgi-bin/
+      url: /cgi-bin/
+ifmoduleincludemodule: 
+  directoryhomementtechpublichtml: 
+    ssilegacyexprparser: 
+      - 
+        value: " On"
+ifmodulelogconfigmodule: 
+  ifmodulelogiomodule: 
+    customlog: 
+      - 
+        format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+        target: /usr/local/apache/domlogs/menttech.net-bytes_log
+ifmoduleuserdirmodule: 
+  ifmodulempmitkc: 
+    ifmoduleruidmodule: {}
+
+ip: 212.1.211.13
+owner: root
+phpopenbasedirprotect: 1
+port: 80
+scriptalias: 
+  - 
+    path: /home/menttech/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@menttech.net
+serveralias: mail.menttech.net www.menttech.net
+servername: menttech.net
+ssl: 1
+usecanonicalname: 'Off'
+user: menttech
+userdirprotect: ''

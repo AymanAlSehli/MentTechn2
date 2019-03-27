@@ -1,0 +1,900 @@
+@import url("fonts.css");
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    direction:rtl;
+    background:transparent;
+    text-decoration: none;
+    font-family:"JF Flat Regular",sans-serif;
+}
+
+body{background-image: url(../images/wall.png);direction:rtl;}
+ul{list-style: none;}
+input{border-radius:0px;}
+
+.lft{float:left;}
+.rgt{float:right;}
+.clr{clear:both;}
+
+/* Fixed right */
+#sidebarWrap {}
+#main {
+    width: 270px;
+    height: 4000px;
+}
+#footer {
+    clear: both;
+    margin: 10px 0;
+}
+#sidebar {
+    width: 200px;
+    position: absolute;
+}
+#sidebar.fixed {
+    position: fixed;
+    top: 0;
+}
+/* Fixed right */
+
+#HomePage{width:1250px;margin:auto;direction:rtl;}
+#HomePage2{width:1200px;margin:auto;}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top:20px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+/* Header */
+/* Header content mega */
+.navbar-default .navbar-nav>li>a {
+    width:200px;
+}
+.mega-dropdown {
+  position: static !important;
+  width:100%;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu:before {
+    content: "";
+    border-bottom: 15px solid #fff;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: 285px;
+    z-index: 10;
+}
+.mega-dropdown-menu:after {
+    content: "";
+    border-bottom: 17px solid #ccc;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+    position: absolute;
+    top: -17px;
+    left: 283px;
+    z-index: 8;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;   
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #999;
+  white-space: normal;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #444;
+  
+}
+.mega-dropdown-menu .dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+  font-weight:bold;
+}
+.mega-dropdown-menu form {
+    margin:3px 20px;
+}
+.mega-dropdown-menu .form-group {
+    margin-bottom: 3px;
+}
+/* Header content mega */
+.paneltartib{border-radius:0px;width:700px;}
+/* End header */
+
+.item-content-block{padding:20px; background-color:#FFF; display:block;}
+.tags a{background-color:#756f5d; padding:10px; color:#fff; display:inline-block; font-size:11px; text-transform:uppercase; line-height:11px; border-radius:2px; margin-bottom:5px; margin-right:2px; text-decoration:none;font-family: 'tahoma';}
+.tags a:hover{background-color:#a38018;}
+
+
+/* Topic Home */ 
+.fade2 {
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    width:700px;height:400px;
+   }
+.fade2:hover {
+    opacity: 1;
+    border-top:4px solid #219AC6;
+}
+.div11{background:white;height:230px;width:700px;margin-bottom:30px;}
+.div12{padding:10px;background:white;margin-top:-40px;margin-right:20px;z-index:1;position: absolute;width:660px;}
+/* End Topic Home */ 
+
+
+
+
+/* Footer */
+.CitySec{float:right;width:200px;margin-right:5px;}
+.copyright{height:40px;background-image: url(../images/purple.jpg);background-attachment: fixed;}
+/* End Footer */
+
+.fade {
+    opacity: 0.8;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+   }
+.fade:hover {
+    opacity: 1;
+}
+
+
+/* POST/REVIEW */
+.TopicWidth{background:white;margin-right:20px;width:715px;}
+.Topicimg{width:700px;height:400px;}
+.fonttopic{font-size:40px;font-weight:bold;text-align:right;padding:30px;}
+.Topic2Wid{margin-right:-30px;width:715px;}
+.tableWid{width:715px;background:#F5F5F5;}
+.likeWid{width:715px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.belike{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.commentWid{width:715px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.becomment{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.rigt{margin-right:80px;}
+.itemi3jab{width:210px;margin-left:10px;margin-bottom:10px;float: right;}
+
+.imgreview{width:1010px;height:500px;}
+.reviewWid{background:white;height:180px;width:1000px;}
+.reviewTopic{padding:10px;background:white;margin-top:-60px;margin-right:100px;z-index:1;position: absolute;width:900px;}
+.reviewlikeWid{margin-right:-30px;width:1010px;}
+.reviewlike{width:1010px;background:#F5F5F5;}
+.blike2{width:1010px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.blike3{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.reviewfont{font-size:50px;}
+/* END POST/REVIEW */ 
+
+.nav-background{background:#9b59b6;padding:5px;}
+.nav-backgroundsrch{background:#9A12B3;padding:5px;}
+.nav-background:hover{background:#8E44AD;padding:5px;color:white;}
+#nav-a{color:white;font-size:20px;}
+#nav-a:hover{color:white;font-size:20px;}
+.nav-alink{background:#555A60;padding:5px;width:auto;border-left:1px solid #63686d;}
+.nav-alink a{color:white;}
+.nav-alink:hover{color:red;background:#1F262E; }
+
+
+#topnav {
+  display: block;
+  float: right;
+      
+}
+#topnav ul { list-style: none; }
+#topnav ul li {
+  float: left;
+  font-weight: bold;
+}
+#topnav ul li a {
+  display: block;
+  float: left;
+  font-size: 1.2em;
+  margin-right: 8px;
+  color: #363a3c;
+  text-decoration: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#topnav ul li a:hover {
+  color: #458ba7;
+}
+#topnav ul li a#searchtoggl {
+  margin-right: 0;
+}
+/** hidden search field **/
+#searchbar {
+  display: none;
+  float: left;
+  width: 100%;
+  height: 62px;
+  border-top: 1px solid #d8d8d8;
+  padding-left: 25px;
+  padding-right: 10px;
+  z-index: 9999;
+  background: #fff;
+  -webkit-box-shadow: -1px 2px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: -1px 2px 2px rgba(0,0,0,0.2);
+  box-shadow: -1px 2px 2px rgba(0,0,0,0.2);
+}
+#s {
+  display: block;
+  width: 88%;
+  border: 0;
+  outline: none;
+  padding: 0;
+  height: 60px;
+  line-height: 60px;
+  font-size: 3.0em;
+  font-weight: bold;
+  color: #676767;
+}
+#searchsubmit {
+  display: block;
+  float: right;
+  margin-top: 6px;
+  background: none;
+  color: #717171;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.sectionS{
+    width:145px;height:130px;background:black;margin:5px;float:right;color:white;
+    background-image: url(http://freetopwallpaper.com/wp-content/gallery/cloud/cloud-wallpaper-hd-background-1.png);background-attachment: fixed;}
+.sectionS:hover{
+   opacity: 0.8; 
+   filter: alpha(opacity=40); /* For IE8 and earlier */ 
+}
+
+.sectionS2{
+    width:130px;height:130px;background:black;margin:5px;float:right;color:white;
+    background-image: url(http://freetopwallpaper.com/wp-content/gallery/cloud/cloud-wallpaper-hd-background-1.png);background-attachment: fixed;}
+.sectionS2:hover{
+   opacity: 0.8; 
+   filter: alpha(opacity=40); /* For IE8 and earlier */ 
+}
+
+
+ /******************************** POST PAGE ****************************/
+.hoverp{width:210px;height:150px;margin:12px;}
+.itemsContainer {
+
+    float:left;
+    position:relative
+}
+.itemsContainer:hover .play{display:block}
+.play{
+  position : absolute;
+    display:none;
+    top:7%; 
+    right:5%; 
+} 
+                        
+
+/* LIKE  */
+.wcd{width:33%; height:40px; float:right;}
+.wcd-logo{font-size: 36px; color: #fff;text-align: center; float:right; cursor: pointer;  color:#fff; font-size: 32px; font-family: 'Varela Round', sans-serif;
+-webkit-transition:color 0.3s ease-in;  -moz-transition:color 0.3s ease-in; x²-o-transition:color 0.3s ease-in; transition:color 0.3s ease-in;
+   }
+   .wcd-logo:hover{color:#3facff;}
+.wcd-tuto{ font-family: 'Varela Round', sans-serif; color: #fff; font-size: 16px; line-height: 36px;}
+.webcodo-top{width:100%; height:40px; background-color:#232323}
+.clear{clear: both;}
+
+.tab-cnt{width: 650px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto; }
+.tab-cnt3{width: 990px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto; }
+.bg-green{ background-color: #559900;}
+.bg-red{background-color: #c9231a;}
+.tab-cnt h1{font-size: 22px; font-family: arial; margin-bottom: 15px;}
+.tab-cnt3 h1{font-size: 22px; font-family: arial; margin-bottom: 15px;}
+.tab-tr{
+	width: 100%; height: 55px; 	
+}
+.like-btn, .dislike-btn{
+	width: auto; height: 30px; padding: 0 15px 0 30px; 
+	float: right; margin-left: 10px; margin-top: 15px;
+	cursor: pointer; color: #333333; font-size: 13px; line-height: 30px;
+	border:#fff 1px solid;
+	-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px; /* border radius */
+}
+.like-btn{background: url(../img/like-ico.png) 5px 50% no-repeat; }
+.like-btn:hover, .like-h{
+	background: url(../img/like-ico-h.png) 5px 50% no-repeat; color: #0c6502;
+	background-color: #f0f0f0;	border: #c6c6c6 1px solid; 
+}
+.dislike-btn{background: url(../img/dislike-ico.png) 50% 50% no-repeat; }
+.dislike-btn:hover, .dislike-h{
+	background: url(../img/dislike-ico-h.png) 50% 50% no-repeat;
+	background-color: #f0f0f0;	border: #c6c6c6 1px solid; 
+}
+
+.stat-cnt{ 	width: 120px; height: 60px; float: left;}
+.stat-bar{	width: 120px; height: 3px;	margin-bottom: 5px;}
+.rate-count{ font-size: 20px; color: #333; text-align: right; font-weight: bold; }
+.stat-bar div{height: 3px; float: right;}
+.like-count{background: url(../img/like-ico2.png) 0% 50% no-repeat;}
+.dislike-count{background: url(../img/dislike-ico2.png) 0% 50% no-repeat; margin-left: 15px;}
+.like-count, .dislike-count{
+	width: auto; height: 18px; 
+	float: right; 
+	font-size: 12px; line-height: 18px; color: #666;
+	padding-left: 15px;
+}
+
+.share-btn{
+	height: 52px; display: inline-block; 
+	float: right;  font-size: 13px; line-height: 55px; 
+	padding: 0 10px; margin-left: 30px;
+	border-bottom: #fff 3px solid;
+	cursor: pointer; 
+}
+.share-btn:hover{ border-bottom: #c9231a 3px solid; }
+.share-cnt{
+	height: 30px; padding: 20px 10px 10px 10px;
+	border-bottom: #e6e6e6 1px solid; display: none;
+}
+
+/* END LIKE  */
+
+/* NEXT PREV  */
+#nextp{
+    text-align:center;border:1px solid white;border-radius:15px;
+    width:100px;padding:5px;background: #eaeaea;color:black;
+}
+#nextp:hover{background: #8E44AD;border:1px solid #8E44AD;}
+#nextp a{color:black;}
+#nextp a:hover{color:white;}
+/* END NEXT PREV */
+
+
+
+/******************************** END POST PAGE ****************************/
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 400px){ 
+    
+.desktop-only{display:none !important;}  
+    
+/* Fixed right */
+#sidebarWrap {clear:both;}
+#main {
+    width: 270px;
+    height: 4000px;
+}
+#footer {
+    clear: both;
+    margin: 10px 0;
+}
+#sidebar {
+    width: 200px;
+    position: absolute;
+}
+#sidebar.fixed {
+    position: fixed;
+    top: 0;
+}
+/* Fixed right */
+
+#HomePage{width:320px;margin:auto;direction:rtl;}
+#HomePage2{width:320px;margin:auto;}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top:20px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+/* Header */
+.navbar-default .navbar-nav>li>a {
+    width:200px;
+}
+.paneltartib{border-radius:0px;width:250px;}
+/* End header */
+
+/* Topic Home */ 
+.fade2 {
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    width:310px;height:200px;margin-right: 5px;
+   }
+.fade2:hover {
+    opacity: 1;
+    border-top:4px solid #219AC6;
+}
+.div11{background:white;width:300px;margin-bottom:30px;margin-right: -20px;font-size: 12px;}
+.div12{padding:10px;background:white;width:320px;}
+.mobilefont{font-size:17px;}
+/* End Topic Home */     
+
+/* POST/REVIEW */
+.TopicWidth{background:white;margin-right:20px;width:310px;}
+.Topicimg{width:290px;height:200px;}
+.fonttopic{font-size:20px;font-weight:bold;text-align:right;padding:10px;}    
+.Topic2Wid{margin-right:-30px;width:330px;}
+.tableWid{width:330px;background:#F5F5F5;}
+.likeWid{width:320px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.belike{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.commentWid{width:310px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.becomment{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+    
+.imgreview{width:300px;height:200px;margin-right: -10px;}
+.reviewWid{background:white;height:180px;width:310px;}
+.reviewTopic{padding:10px;background:white;margin-top:-60px;margin-right:100px;z-index:1;position: absolute;width:310px;}
+.reviewlikeWid{margin-right:-30px;width:340px;}
+.reviewlike{width:340px;background:#F5F5F5;}
+.blike2{width:310px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.blike3{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.reviewfont{font-size:30px;margin-top:10px;}    
+/* END POST/REVIEW */     
+    
+/* Footer */
+.CitySec{float:right;width:200px;margin-right:5px;}
+.copyright{height:110px;background-image: url(../images/purple.jpg);background-attachment: fixed;font-size:12px;}    
+/* End Footer */    
+    
+.rwabet{width:310px;margin-right:5px;}
+.pagination{width:310px;float:right;} 
+    
+/* LIKE  */
+.tab-cnt{width: 310px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto;margin-right:-15px; }
+.tab-cnt3{width: 310px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto; margin-right:-15px; }    
+/* END LIKE  */
+    
+.estoimg{width:310px;margin-right:-20px;}    
+.estoimg img{max-width: 300px;max-height: 200px;}    
+}
+
+@media screen and (min-width: 401px) and (max-width: 480px){ 
+    
+.desktop-only{display:none !important;}  
+    
+/* Fixed right */
+#sidebarWrap {clear:both;}
+#main {
+    width: 270px;
+    height: 4000px;
+}
+#footer {
+    clear: both;
+    margin: 10px 0;
+}
+#sidebar {
+    width: 200px;
+    position: absolute;
+}
+#sidebar.fixed {
+    position: fixed;
+    top: 0;
+}
+/* Fixed right */
+
+#HomePage{width:400px;margin:auto;direction:rtl;}
+#HomePage2{width:400px;margin:auto;}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top:20px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+/* Header */
+.navbar-default .navbar-nav>li>a {
+    width:200px;
+}
+.paneltartib{border-radius:0px;width:400px;}
+/* End header */
+
+/* Topic Home */ 
+.fade2 {
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    width:400px;height:200px;margin-right: 5px;
+   }
+.fade2:hover {
+    opacity: 1;
+    border-top:4px solid #219AC6;
+}
+.div11{background:white;width:400px;margin-bottom:30px;margin-right: 5px;font-size: 12px;}
+.div12{padding:10px;background:white;width:380px;margin-top: 0px;}
+.mobilefont{font-size:17px;}
+/* End Topic Home */     
+
+/* POST/REVIEW */
+.TopicWidth{background:white;margin-right:20px;width:400px;}
+.Topicimg{width:390px;height:200px;}
+.fonttopic{font-size:20px;font-weight:bold;text-align:right;padding:10px;}    
+.Topic2Wid{margin-right:-30px;width:400px;}
+.tableWid{width:400px;background:#F5F5F5;}
+.likeWid{width:400px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.belike{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.commentWid{width:400px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.becomment{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+    
+.imgreview{width:400px;height:200px;margin-right: -10px;}
+.reviewWid{background:white;height:180px;width:400px;}
+.reviewTopic{padding:10px;background:white;margin-top:-60px;margin-right:100px;z-index:1;position: absolute;width:400px;}
+.reviewlikeWid{margin-right:-30px;width:400px;}
+.reviewlike{width:400px;background:#F5F5F5;}
+.blike2{width:400px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.blike3{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.reviewfont{font-size:30px;margin-top:10px;}    
+/* END POST/REVIEW */     
+    
+/* Footer */
+.CitySec{float:right;width:200px;margin-right:5px;}
+.copyright{height:80px;background-image: url(../images/purple.jpg);background-attachment: fixed;font-size:12px;}     
+/* End Footer */    
+    
+.rwabet{width:400px;margin-right:5px;}
+.pagination{width:400px;float:right;} 
+    
+/* LIKE  */
+.tab-cnt{width: 400px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto;margin-right:-15px; }
+.tab-cnt3{width: 400px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto; margin-right:-15px; }    
+/* END LIKE  */
+    
+.estoimg{width:400px;margin-right:-20px;}    
+.estoimg img{max-width: 390px;max-height: 300px;}  
+    
+.sectionS{
+    width:120px;height:120px;background:black;margin:2px;float:right;color:white;
+    background-image: url(http://freetopwallpaper.com/wp-content/gallery/cloud/cloud-wallpaper-hd-background-1.png);background-attachment: fixed;
+    }
+.sectionS:hover{
+   opacity: 0.8; 
+   filter: alpha(opacity=40); /* For IE8 and earlier */ 
+}
+
+    
+}
+
+@media screen and (min-width: 533px) and (max-width: 640px){ 
+    
+.desktop-only{display:none !important;}  
+    
+/* Fixed right */
+#sidebarWrap {clear:both;}
+#main {
+    width: 270px;
+    height: 4000px;
+}
+#footer {
+    clear: both;
+    margin: 10px 0;
+}
+#sidebar {
+    width: 200px;
+    position: absolute;
+}
+#sidebar.fixed {
+    position: fixed;
+    top: 0;
+}
+/* Fixed right */
+
+#HomePage{width:530px;margin:auto;direction:rtl;}
+#HomePage2{width:530px;margin:auto;}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top:20px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+/* Header */
+.navbar-default .navbar-nav>li>a {
+    width:200px;
+}
+.paneltartib{border-radius:0px;width:530px;}
+/* End header */
+
+/* Topic Home */ 
+.fade2 {
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    width:500px;height:300px;margin-right: 5px;
+   }
+.fade2:hover {
+    opacity: 1;
+    border-top:4px solid #219AC6;
+}
+.div11{background:white;width:500px;margin-bottom:30px;margin-right: 5px;font-size: 12px;}
+.div12{padding:10px;background:white;width:480px;margin-top: 0px;}
+.mobilefont{font-size:17px;}
+/* End Topic Home */     
+
+/* POST/REVIEW */
+.TopicWidth{background:white;margin-right:20px;width:500px;}
+.Topicimg{width:390px;height:300px;}
+.fonttopic{font-size:20px;font-weight:bold;text-align:right;padding:10px;}    
+.Topic2Wid{margin-right:-30px;width:500px;}
+.tableWid{width:500px;background:#F5F5F5;}
+.likeWid{width:500px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.belike{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.commentWid{width:500px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.becomment{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.itemi3jab{width:210px;margin-bottom:10px;float: right;height:230px;}
+.rigt{margin-right: 20px}
+    
+.imgreview{width:500px;height:300px;margin-right: -10px;}
+.reviewWid{background:white;height:180px;width:500px;}
+.reviewTopic{padding:10px;background:white;margin-top:-60px;margin-right:100px;z-index:1;position: absolute;width:500px;}
+.reviewlikeWid{margin-right:-30px;width:500px;}
+.reviewlike{width:500px;background:#F5F5F5;}
+.blike2{width:500px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.blike3{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.reviewfont{font-size:30px;margin-top:10px;}    
+/* END POST/REVIEW */     
+    
+/* Footer */
+.CitySec{float:right;width:200px;margin-right:5px;}
+.copyright{height:80px;background-image: url(../images/purple.jpg);background-attachment: fixed;font-size:12px;}    
+/* End Footer */    
+    
+.rwabet{width:500px;margin-right:5px;}
+.pagination{width:500px;float:right;} 
+    
+/* LIKE  */
+.tab-cnt{width: 500px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto;margin-right:-15px; }
+.tab-cnt3{width: 500px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto; margin-right:-15px; }    
+/* END LIKE  */
+    
+.estoimg{width:500px;margin-right:-20px;}    
+.estoimg img{max-width: 390px;max-height: 300px;}  
+    
+.sectionS{
+    width:120px;height:120px;background:black;margin:2px;float:right;color:white;
+    background-image: url(http://freetopwallpaper.com/wp-content/gallery/cloud/cloud-wallpaper-hd-background-1.png);background-attachment: fixed;
+    }
+.sectionS:hover{
+   opacity: 0.8; 
+   filter: alpha(opacity=40); /* For IE8 and earlier */ 
+}
+footer .col-md-2{height:250px;}
+footer .list-group{width:220px;float:right;margin-left: 10px;}
+footer .col-md-3{width:260px;float:right;}
+footer .col-md-4{width:260px;float:right;}
+    
+}
+
+@media screen and (min-width: 641px) and (max-width: 799px){ 
+.desktop-only{display:none !important;}  
+    
+/* Fixed right */
+#sidebarWrap {clear:both;}
+#main {
+    width: 270px;
+    height: 4000px;
+}
+#footer {
+    clear: both;
+    margin: 10px 0;
+}
+#sidebar {
+    width: 200px;
+    position: absolute;
+}
+#sidebar.fixed {
+    position: fixed;
+    top: 0;
+}
+/* Fixed right */
+
+#HomePage{width:610px;margin:auto;direction:rtl;}
+#HomePage2{width:610px;margin:auto;}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top:20px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+/* Header */
+.navbar-default .navbar-nav>li>a {
+    width:200px;
+}
+.paneltartib{border-radius:0px;width:610px;}
+/* End header */
+
+/* Topic Home */ 
+.fade2 {
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    width:600px;height:300px;margin-right: 5px;
+   }
+.fade2:hover {
+    opacity: 1;
+    border-top:4px solid #219AC6;
+}
+.div11{background:white;width:600px;margin-bottom:30px;margin-right: 5px;font-size: 12px;}
+.div12{padding:10px;background:white;width:580px;margin-top: 0px;}
+.mobilefont{font-size:17px;}
+/* End Topic Home */     
+
+/* POST/REVIEW */
+.TopicWidth{background:white;margin-right:20px;width:600px;}
+.Topicimg{width:390px;height:300px;}
+.fonttopic{font-size:20px;font-weight:bold;text-align:right;padding:10px;}    
+.Topic2Wid{margin-right:-30px;width:600px;}
+.tableWid{width:600px;background:#F5F5F5;}
+.likeWid{width:600px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.belike{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.commentWid{width:600px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.becomment{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.itemi3jab{width:210px;margin-bottom:10px;float: right;height:230px;}
+.rigt{margin-right: 20px}
+    
+.imgreview{width:600px;height:300px;margin-right: -10px;}
+.reviewWid{background:white;height:180px;width:600px;}
+.reviewTopic{padding:10px;background:white;margin-top:-60px;margin-right:100px;z-index:1;position: absolute;width:600px;}
+.reviewlikeWid{margin-right:-30px;width:600px;}
+.reviewlike{width:600px;background:#F5F5F5;}
+.blike2{width:600px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.blike3{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.reviewfont{font-size:30px;margin-top:10px;}    
+/* END POST/REVIEW */     
+    
+/* Footer */
+.CitySec{float:right;width:200px;margin-right:5px;}
+.copyright{height:40px;background-image: url(../images/purple.jpg);background-attachment: fixed;font-size:12px;}    
+/* End Footer */    
+    
+.rwabet{width:600px;margin-right:5px;}
+.pagination{width:600px;float:right;} 
+    
+/* LIKE  */
+.tab-cnt{width: 600px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto;margin-right:-15px; }
+.tab-cnt3{width: 600px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto; margin-right:-15px; }    
+/* END LIKE  */
+    
+.estoimg{width:600px;margin-right:-20px;}    
+.estoimg img{max-width: 390px;max-height: 300px;}  
+    
+.sectionS{
+    width:140px;height:120px;background:black;margin:2px;float:right;color:white;
+    background-image: url(http://freetopwallpaper.com/wp-content/gallery/cloud/cloud-wallpaper-hd-background-1.png);background-attachment: fixed;
+    }
+.sectionS:hover{
+   opacity: 0.8; 
+   filter: alpha(opacity=40); /* For IE8 and earlier */ 
+}
+     
+footer .col-md-2{height:300px;}
+footer .list-group{width:260px;float:right;margin-left: 10px;}
+footer .col-md-3{width:300px;float:right;}
+footer .col-md-4{width:300px;float:right;}
+    
+}
+
+@media screen and (min-width: 800px) and (max-width: 980px){ 
+.desktop-only{display:none !important;}  
+    
+/* Fixed right */
+#sidebarWrap {clear:both;}
+#main {
+    width: 270px;
+    height: 4000px;
+}
+#footer {
+    clear: both;
+    margin: 10px 0;
+}
+#sidebar {
+    width: 200px;
+    position: absolute;
+}
+#sidebar.fixed {
+    position: fixed;
+    top: 0;
+}
+/* Fixed right */
+
+#HomePage{width:780px;margin:auto;direction:rtl;}
+#HomePage2{width:780px;margin:auto;}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top:20px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+/* Header */
+.navbar-default .navbar-nav>li>a {
+    width:200px;
+}
+.paneltartib{border-radius:0px;width:500px;}
+/* End header */
+
+/* Topic Home */ 
+.fade2 {
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    width:500px;height:300px;margin-right: 5px;
+   }
+.fade2:hover {
+    opacity: 1;
+    border-top:4px solid #219AC6;
+}
+.div11{background:white;width:500px;margin-bottom:30px;margin-right: 5px;font-size: 12px;}
+.div12{padding:10px;background:white;width:500px;margin-top: 0px;}
+.mobilefont{font-size:17px;}
+/* End Topic Home */     
+
+/* POST/REVIEW */
+.TopicWidth{background:white;margin-right:20px;width:760px;}
+.Topicimg{width:390px;height:300px;}
+.fonttopic{font-size:20px;font-weight:bold;text-align:right;padding:10px;}    
+.Topic2Wid{margin-right:-30px;width:760px;}
+.tableWid{width:760px;background:#F5F5F5;}
+.likeWid{width:760px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.belike{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.commentWid{width:780px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.becomment{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.itemi3jab{width:210px;margin-bottom:10px;float: right;height:230px;}
+.rigt{margin-right: 20px}
+    
+.imgreview{width:760px;height:400px;margin-right: -10px;}
+.reviewWid{background:white;height:180px;width:760px;}
+.reviewTopic{padding:10px;background:white;margin-top:-60px;margin-right:100px;z-index:1;position: absolute;width:760px;}
+.reviewlikeWid{margin-right:-30px;width:760px;}
+.reviewlike{width:780px;background:#F5F5F5;}
+.blike2{width:760px;background:#f2f2f2;margin-top:20px;height:35px;border-bottom:3px solid #9B59B6;}
+.blike3{text-align:center;background:#9B59B6;width:150px;height:35px;color:white;padding:7px;}
+.reviewfont{font-size:30px;margin-top:10px;}    
+/* END POST/REVIEW */     
+    
+/* Footer */
+.CitySec{float:right;width:200px;margin-right:5px;}
+/* End Footer */    
+    
+.rwabet{width:760px;margin-right:5px;}
+.pagination{width:760px;float:right;} 
+    
+/* LIKE  */
+.tab-cnt{width: 760px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto;margin-right:-15px; }
+.tab-cnt3{width: 760px; height:auto; margin: 10px auto; padding: 10px; background-color: #fafafa; border: #ccc 1px dotted; overflow: auto; margin-right:-15px; }    
+/* END LIKE  */
+    
+.estoimg{width:760px;margin-right:-20px;}    
+.estoimg img{max-width: 700px;max-height: 450px;}  
+    
+.sectionS{
+    width:140px;height:120px;background:black;margin:2px;float:right;color:white;
+    background-image: url(http://freetopwallpaper.com/wp-content/gallery/cloud/cloud-wallpaper-hd-background-1.png);background-attachment: fixed;
+    }
+.sectionS:hover{
+   opacity: 0.8; 
+   filter: alpha(opacity=40); /* For IE8 and earlier */ 
+}
+.sectionleft{width:270px;} 
+.col-md-7{width:530px;}    
+footer .col-md-2{height:300px;}
+footer .list-group{width:320px;float:right;margin-left: 10px;}
+footer .col-md-3{width:350px;float:right;}
+footer .col-md-4{width:350px;float:right;}
+    
+}
+
+
+
+
+
+
+
+

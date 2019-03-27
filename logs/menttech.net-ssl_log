@@ -1,0 +1,7 @@
+157.55.39.46 - - [26/Mar/2019:01:24:03 +0000] "GET /robots.txt HTTP/1.1" 404 1148 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+157.55.39.46 - - [26/Mar/2019:01:24:03 +0000] "GET /robots.txt HTTP/1.1" 404 1148 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+207.46.13.250 - - [26/Mar/2019:05:30:09 +0000] "GET /imagespost/52_07-07-2016_HowToPcPartPicker.png HTTP/1.1" 200 140162 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+207.46.13.76 - - [26/Mar/2019:18:41:26 +0000] "GET /imagespost/171_22-09-2016_wordle_blog_corporativo1.jpg HTTP/1.1" 200 117886 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+40.77.167.125 - - [27/Mar/2019:01:32:23 +0000] "GET /post.php?id=31 HTTP/1.1" 200 13873 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+40.77.167.189 - - [27/Mar/2019:14:46:07 +0000] "GET /imagespost/38_24-03-2016_185_27-02-2016_1password-1000x667.jpg HTTP/1.1" 200 123500 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+40.77.167.65 - - [27/Mar/2019:14:56:15 +0000] "GET /imagespost/195_31-03-2017_1.png HTTP/1.1" 200 101039 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"

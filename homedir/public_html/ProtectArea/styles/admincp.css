@@ -1,0 +1,127 @@
+@import url("../../css/fonts.css");
+body{
+  direction: rtl;
+  font-family:"chakirhelve",arial;
+  color:#555;
+}
+#header{
+  font-size: 16px;
+  padding:10px;
+}
+#footer{
+  font-size: 14px;
+  font-weight:bold;
+  padding:10px;
+  border-top:1px solid #555;
+  text-align:center;
+  padding:5px;
+}
+#itemMenu{
+    border-radius:0px;background:#2A3542;
+    border-color:#2A3542;color:#bbbdbf;
+    font-family:"JF Flat Regular",arial;
+}
+
+.rpanel{
+  background:#2A3542;
+  width:250px;    
+  padding:5px;
+  margin:10px;
+  vertical-align:top;
+}
+.cpanel{
+  background:#F1F2F7;
+  
+  padding:5px;
+  margin-top:10px;
+  margin-right:-10px;
+}
+a {
+  color:#555;
+  text-decoration:none;
+}
+a:hover{
+color:ccc;
+text-decoration:none;
+}
+.head{
+ background-color:#2D87B4;
+ color:#FFF;
+ padding:5px;
+ text-align:center;
+}
+.bodypanel{
+ border-bottom:1px #555 solid;
+ border-right:1px #555 solid;
+ border-left:1px #555 solid;
+ padding:7px;
+ margin-bottom:8px;
+}
+.tbl{
+  background-color:#555;
+  padding:10px;
+  text-align:center;
+  color:white;
+  font-weight:bold;
+}
+.tbl2{
+   background-color:#F1F1F1;
+   padding:3px;
+}
+.tbl3{
+   background-color:#FFF;
+   padding:3px;
+}
+.buttons{
+  background-color:#555;
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-left:6px;
+  padding-right:6px;
+  color:white;
+  border:#FFF 1px dotted;
+}
+.buttons:hover{
+  color:#E0E0E0;
+}
+.imp{
+  border:1px #CCC solid;
+  background-color:#F1F1F1;
+  padding:4px;
+  font-weight:bold;
+  text-align:center;
+}
+.TitleTag{
+  background:#2A3542;
+  color:#FFF;
+  padding:10px;
+  text-align:center;
+
+}
+.imglib{}
+.imglib img{width:150px;height:100px;margin:10px;}
+.imglib img:last-child{margin-right:0px;}
+
+.MsgTbl tr{
+ margin:5px;
+}
+.MsgTbl tr td{
+ padding:5px;
+}
+.TblTit{
+  background: #D9534F;
+  color:white;
+  width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
